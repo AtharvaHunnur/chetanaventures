@@ -1,3 +1,10 @@
+import {
+  heroVilla,
+  residentialArchitecture,
+  luxuryInterior,
+  commercialComplex,
+} from '../assets/images.js';
+
 export const PROJECTS = [
   {
     id: "the-serene-pavilion",
@@ -10,11 +17,11 @@ export const PROJECTS = [
     status: "Completed",
     shortDesc: "A cantilevered contemporary villa embracing natural travertine, exposed concrete, and a central water courtyard.",
     fullDesc: "Designed as an urban sanctuary, The Serene Pavilion incorporates deep overhangs for solar shading, full-height double-glazed thermal windows, and seamless transitions between indoor living lounges and outdoor reflecting lap pools. Crafted using custom shuttered concrete, Italian Travertine, and sustainably sourced Burmese teak wood.",
-    image: "/src/assets/images/hero_luxury_villa_1793377131201.jpg",
+    image: heroVilla,
     gallery: [
-      "/src/assets/images/hero_luxury_villa_1793377131201.jpg",
-      "/src/assets/images/residential_architecture_1793377131205.jpg",
-      "/src/assets/images/luxury_interior_living_1793377133191.jpg"
+      heroVilla,
+      residentialArchitecture,
+      luxuryInterior
     ],
     highlights: [
       "12-meter post-tensioned cantilevered terrace",
@@ -35,11 +42,11 @@ export const PROJECTS = [
     status: "Completed",
     shortDesc: "Multi-tiered contemporary residence featuring floating pergolas, warm limestone textures, and an infinity pool.",
     fullDesc: "Built on an undulating parcel of land, this home negotiates the natural terrain through stacked volumetric forms. Exterior facades feature hand-chiseled Kota stone, exterior architectural profile lighting, and expansive private family balconies shaded by motorized bronze louvers.",
-    image: "/src/assets/images/residential_architecture_1793377131205.jpg",
+    image: residentialArchitecture,
     gallery: [
-      "/src/assets/images/residential_architecture_1793377131205.jpg",
-      "/src/assets/images/hero_luxury_villa_1793377131201.jpg",
-      "/src/assets/images/luxury_interior_living_1793377133191.jpg"
+      residentialArchitecture,
+      heroVilla,
+      luxuryInterior
     ],
     highlights: [
       "Suspended steel staircase with solid oak treads",
@@ -60,10 +67,10 @@ export const PROJECTS = [
     status: "Completed",
     shortDesc: "A modern commercial headquarters with vertical bronze sun louvers, high-efficiency glazing, and a pedestrian courtyard.",
     fullDesc: "A boutique commercial building designed for technology enterprises. It features high ceiling clearances of 4.1 meters, post-tensioned column layouts allowing flexible sub-division, a landscaped open-air arrival plaza, and IGBC Gold rated green building envelope performance.",
-    image: "/src/assets/images/commercial_complex_1793377131946.jpg",
+    image: commercialComplex,
     gallery: [
-      "/src/assets/images/commercial_complex_1793377131946.jpg",
-      "/src/assets/images/hero_luxury_villa_1793377131201.jpg"
+      commercialComplex,
+      heroVilla
     ],
     highlights: [
       "Double-skin ventilated ceramic & louver facade",
@@ -84,10 +91,10 @@ export const PROJECTS = [
     status: "Completed",
     shortDesc: "Warm minimalist penthouse interiors featuring fluted walnut paneling, curved bespoke lounges, and courtyard views.",
     fullDesc: "Every surface was custom detailed to evoke quiet serenity. The residence features continuous Roman travertine slab flooring, concealed magnetic track lighting, acoustic fluted walnut cladding, and imported minimalist furniture curated specifically for the owners' contemporary art collection.",
-    image: "/src/assets/images/luxury_interior_living_1793377133191.jpg",
+    image: luxuryInterior,
     gallery: [
-      "/src/assets/images/luxury_interior_living_1793377133191.jpg",
-      "/src/assets/images/residential_architecture_1793377131205.jpg"
+      luxuryInterior,
+      residentialArchitecture
     ],
     highlights: [
       "Bespoke Italian lacquer & smoked glass wardrobes",
@@ -108,10 +115,10 @@ export const PROJECTS = [
     status: "Completed",
     shortDesc: "A heavy-load industrial distribution warehouse engineered with laser-screeded floors and clear span steel frames.",
     fullDesc: "Engineered for high-volume automated distribution. Features 14-meter clear eave height, FM2 international flatness tolerance concrete flooring capable of supporting 8-tonne point loads, automated dock levelers, and heavy industrial fire sprinkler grids.",
-    image: "/src/assets/images/commercial_complex_1793377131946.jpg",
+    image: commercialComplex,
     gallery: [
-      "/src/assets/images/commercial_complex_1793377131946.jpg",
-      "/src/assets/images/hero_luxury_villa_1793377131201.jpg"
+      commercialComplex,
+      heroVilla
     ],
     highlights: [
       "14-meter clear height pre-engineered steel structure",
@@ -132,10 +139,10 @@ export const PROJECTS = [
     status: "Completed",
     shortDesc: "Sculptural architectural facade study highlighting geometric concrete volumes, brass privacy screens, and integrated vertical foliage.",
     fullDesc: "An exploration of privacy and transparency in dense tropical cities. The elevation features deep setback terraces, operable perforated bronze metal screens that temper harsh western glare, and board-formed cast concrete planes that age gracefully over time.",
-    image: "/src/assets/images/residential_architecture_1793377131205.jpg",
+    image: residentialArchitecture,
     gallery: [
-      "/src/assets/images/residential_architecture_1793377131205.jpg",
-      "/src/assets/images/hero_luxury_villa_1793377131201.jpg"
+      residentialArchitecture,
+      heroVilla
     ],
     highlights: [
       "Operable kinetic bronze facade louvers",

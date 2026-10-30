@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import { SERVICES } from '../data/services.js';
 import { PROJECTS } from '../data/projects.js';
+import { heroVilla } from '../assets/images.js';
 
 export default function Services() {
   const location = useLocation();
@@ -34,7 +35,7 @@ export default function Services() {
       <section className="bg-[#183B32] text-white py-16 md:py-24 border-b border-[#B77B53]/20 relative overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <img
-            src="/src/assets/images/hero_luxury_villa_1793377131201.jpg"
+            src={heroVilla}
             alt="Chethana Ventures Capabilities"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"

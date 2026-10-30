@@ -15,6 +15,11 @@ import {
 } from 'lucide-react';
 import { COMPANY_INFO } from '../data/company.js';
 import { TEAM_MEMBERS } from '../data/team.js';
+import {
+  heroVilla,
+  residentialArchitecture,
+  commercialComplex,
+} from '../assets/images.js';
 
 export default function About() {
   return (
@@ -24,7 +29,7 @@ export default function About() {
       <section className="bg-[#183B32] text-white py-16 md:py-24 border-b border-[#B77B53]/20 relative overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <img
-            src="/src/assets/images/hero_luxury_villa_1793377131201.jpg"
+            src={heroVilla}
             alt="Chethana Ventures Architecture"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"
@@ -82,7 +87,7 @@ export default function About() {
           <div className="lg:col-span-6 relative">
             <div className="aspect-[4/3] w-full overflow-hidden shadow-2xl border border-[#242B28]/10 bg-[#EAE7DE]">
               <img
-                src="/src/assets/images/residential_architecture_1793377131205.jpg"
+                src={residentialArchitecture}
                 alt="Chethana Ventures Engineering"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover"
@@ -231,7 +236,7 @@ export default function About() {
             <div className="lg:col-span-6">
               <div className="aspect-video w-full overflow-hidden shadow-2xl border border-white/15 bg-[#242B28]">
                 <img
-                  src="/src/assets/images/commercial_complex_1793377131946.jpg"
+                  src={commercialComplex}
                   alt="Quality Assurance Execution"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"

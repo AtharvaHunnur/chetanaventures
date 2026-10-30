@@ -25,6 +25,12 @@ import { TESTIMONIALS } from '../data/testimonials.js';
 import { TEAM_MEMBERS } from '../data/team.js';
 import { COMPANY_INFO } from '../data/company.js';
 import ProjectModal from '../components/ProjectModal.jsx';
+import {
+  heroVilla,
+  residentialArchitecture,
+  luxuryInterior,
+  commercialComplex,
+} from '../assets/images.js';
 
 export default function Home() {
   const [selectedCategory, setSelectedCategory] = useState('All');
@@ -56,7 +62,7 @@ export default function Home() {
         {/* Background Image with Controlled Dark Editorial Scrim */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_luxury_villa_1793377131201.jpg"
+            src={heroVilla}
             alt="Contemporary Luxury Villa Architecture"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center scale-105 transition-transform duration-1000 ease-out"
@@ -143,7 +149,7 @@ export default function Home() {
               {/* Primary Large Image */}
               <div className="relative aspect-[4/3] w-full overflow-hidden shadow-xl border border-[#242B28]/10 bg-[#EAE7DE]">
                 <img
-                  src="/src/assets/images/residential_architecture_1793377131205.jpg"
+                  src={residentialArchitecture}
                   alt="Chethana Ventures Residential Architecture"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -153,7 +159,7 @@ export default function Home() {
               {/* Secondary Overlapping Image */}
               <div className="absolute -bottom-8 -right-4 sm:-right-8 w-1/2 aspect-[4/3] shadow-2xl border-4 border-[#F5F2EB] hidden sm:block overflow-hidden bg-[#EAE7DE]">
                 <img
-                  src="/src/assets/images/luxury_interior_living_1793377133191.jpg"
+                  src={luxuryInterior}
                   alt="Curated Interior Living Space"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -316,7 +322,7 @@ export default function Home() {
                 </div>
                 <div className="relative aspect-video sm:aspect-auto overflow-hidden bg-[#EAE7DE]">
                   <img
-                    src="/src/assets/images/residential_architecture_1793377131205.jpg"
+                    src={residentialArchitecture}
                     alt="Residential Construction"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -329,7 +335,7 @@ export default function Home() {
             <div className="group bg-white border border-[#242B28]/10 overflow-hidden flex flex-col justify-between p-6 hover:border-[#B77B53] transition-all">
               <div className="relative aspect-video w-full mb-5 overflow-hidden bg-[#EAE7DE]">
                 <img
-                  src="/src/assets/images/commercial_complex_1793377131946.jpg"
+                  src={commercialComplex}
                   alt="Commercial Construction"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -429,7 +435,7 @@ export default function Home() {
             <div className="group bg-white border border-[#242B28]/10 overflow-hidden flex flex-col justify-between p-6 hover:border-[#B77B53] transition-all">
               <div className="relative aspect-video w-full mb-5 overflow-hidden bg-[#EAE7DE]">
                 <img
-                  src="/src/assets/images/luxury_interior_living_1793377133191.jpg"
+                  src={luxuryInterior}
                   alt="Interior Design"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -1144,7 +1150,7 @@ export default function Home() {
       <section className="relative py-24 md:py-32 bg-[#183B32] text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <img
-            src="/src/assets/images/hero_luxury_villa_1793377131201.jpg"
+            src={heroVilla}
             alt="Chethana Ventures Architecture"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover"

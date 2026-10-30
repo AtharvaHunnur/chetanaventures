@@ -1,3 +1,10 @@
+import {
+  residentialArchitecture,
+  commercialComplex,
+  heroVilla,
+  luxuryInterior,
+} from '../assets/images.js';
+
 export const SERVICES = [
   {
     id: "residential-construction",
@@ -5,7 +12,7 @@ export const SERVICES = [
     subtitle: "Custom Homes, Luxury Villas & Private Estates",
     shortDesc: "End-to-end bespoke residential development, from soil testing and seismic-resistant RCC foundations to signature facade detailing and luxury handovers.",
     longDesc: "Chethana Ventures crafts timeless private residences that merge climate-responsive architecture with uncompromising structural longevity. Whether designing an independent villa in an upscale gated enclave or building a customized multi-generational home on ancestral land, our in-house civil engineers and project directors enforce rigorous German-engineered site QC protocols.",
-    image: "/src/assets/images/residential_architecture_1793377131205.jpg",
+    image: residentialArchitecture,
     features: [
       "Individual Custom Homes & Triplex Villas",
       "G+2 to G+4 Independent Bungalows",
@@ -26,7 +33,7 @@ export const SERVICES = [
     subtitle: "Corporate Offices, Tech Hubs & Retail Plazas",
     shortDesc: "High-performance commercial architecture engineered for maximum spatial efficiency, natural light distribution, and long-term asset value.",
     longDesc: "We build modern commercial campuses, boutique corporate office buildings, and retail destinations. Our commercial engineering practice emphasizes post-tensioned slab technology for expansive column-free layouts, intelligent HVAC integration, and energy-efficient double-glazed structural glazing facades.",
-    image: "/src/assets/images/commercial_complex_1793377131946.jpg",
+    image: commercialComplex,
     features: [
       "Grade-A Corporate Headquarters & Offices",
       "Mixed-Use Retail Centers & Showrooms",
@@ -47,7 +54,7 @@ export const SERVICES = [
     subtitle: "Pre-Engineered Warehouses & Manufacturing Plants",
     shortDesc: "Robust industrial engineering delivering heavy-load industrial sheds, automated logistics warehouses, and specialized manufacturing plants.",
     longDesc: "From high-tolerance laser-screeded vacuum-dewatered industrial flooring to pre-engineered steel buildings (PEB), Chethana Ventures delivers heavy industrial facilities engineered for demanding logistical cycles, optimal ventilation, and seismic safety.",
-    image: "/src/assets/images/hero_luxury_villa_1793377131201.jpg",
+    image: heroVilla,
     features: [
       "Pre-Engineered Metal Buildings (PEB)",
       "High-Tolerance FM2 Industrial Concrete Floors",
@@ -68,7 +75,7 @@ export const SERVICES = [
     subtitle: "Engineering Rigor Meets Sculptural Elegance",
     shortDesc: "Comprehensive architectural masterplanning, 3D visualization, BIM modeling, and precise STAAD-Pro structural engineering.",
     longDesc: "Great buildings begin with deep listening. Our architectural studio synthesizes micro-climate analysis, passive solar orientation, and spatial flow with meticulous structural calculations. We produce complete working drawings down to 1:10 joinery details.",
-    image: "/src/assets/images/residential_architecture_1793377131205.jpg",
+    image: residentialArchitecture,
     features: [
       "Bespoke Architectural Masterplanning & Floor Plans",
       "3D Photorealistic Exterior & Interior Visualizations",
@@ -89,7 +96,7 @@ export const SERVICES = [
     subtitle: "Tailored Living Environments & Tactile Luxury",
     shortDesc: "Sophisticated interior environments blending Italian marble, bespoke acoustic millwork, smart lighting, and curated furnishings.",
     longDesc: "We approach interiors as an organic extension of architectural volume. From custom walk-in wardrobes and German-hardware modular kitchens to acoustic wall paneling and mood-responsive architectural lighting, every detail is crafted for everyday serenity.",
-    image: "/src/assets/images/luxury_interior_living_1793377133191.jpg",
+    image: luxuryInterior,
     features: [
       "Residential Luxury Living & Dining Concepts",
       "Bespoke Master Suites & Walk-In Wardrobes",
@@ -110,7 +117,7 @@ export const SERVICES = [
     subtitle: "Single-Point Accountability from Inception to Key Handover",
     shortDesc: "Complete stress-free execution where Chethana Ventures manages architectural permits, materials procurement, contracting, and handover.",
     longDesc: "Eliminate the friction of coordinating separate architects, structural engineers, multiple subcontractors, and material vendors. Chethana Ventures acts as your single accountable partner, guaranteeing timeline discipline, fixed stage-gate budgets, and transparent tracking.",
-    image: "/src/assets/images/hero_luxury_villa_1793377131201.jpg",
+    image: heroVilla,
     features: [
       "Single-Point Contractual Project Accountability",
       "Direct Factory Material Sourcing (Cement, Steel, Stone)",
@@ -131,7 +138,7 @@ export const SERVICES = [
     subtitle: "Breathing New Vitality into Existing Structures",
     shortDesc: "Surgical structural retrofitting, spatial reconfigurations, facade modernizations, and luxury interior transformations.",
     longDesc: "Transforming existing properties requires extraordinary engineering precision. We specialize in structural beam-column strengthening, wall removal for open-concept floor plans, heritage facade revivals, and comprehensive infrastructure upgrades.",
-    image: "/src/assets/images/luxury_interior_living_1793377133191.jpg",
+    image: luxuryInterior,
     features: [
       "Structural Retrofitting & Carbon-Fiber Strengthening",
       "Open-Floor Conversion & Load-Bearing Modifications",
